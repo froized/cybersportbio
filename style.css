@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+font-family: 'Raleway', sans-serif;
+background: url(https://kartinkinaden.ru/uploads/posts/2021-01/1611098721_12-p-kosmicheskii-temnii-fon-16.jpg)
+
+}
+abbr {
+	text-decoration:none;
+}
+
+h2 {
+	font-size:23px;
+	font-weight:bold;
+	
+}
+
+p {
+	color:black;
+	opacity:1.2
+	width:3px;
+	cursive;
+}
+strong {
+	
+	font-size:22px;
+	font-weight:15px;
+	color: black;
+	opacity:1;
+}
+
+h3{
+	font-size: 20px;
+	font-weight:bold;
+	
+}
+.container {
+	width: 800px;
+	min-height: 760px;
+	border: 10px solid #fff;
+	margin: 100px	auto;
+	background: #fff
+	
+}
+
+.header {
+	display: flex;
+	height: 150px;
+	width:800px;
+	
+}
+
+.title-block {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height:100%;
+	font-size: 70px;
+	background: url(https://sun9-73.userapi.com/impg/AO1nIa6q6e9uglZlbTdga3QgwCRn2noJXGmqAw/qCkd0zw0sbE.jpg?size=2560x1920&quality=96&sign=7abefd176e76b0341105818afbf6c9e3&type=album) no-repeat center center / cover;
+	color: #fff;
+	margin-right: 10px;
+}
+
+
+
+.title-block::after {
+	content:'';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	
+}
+
+
+
+.userpic {
+	
+	display: flex;
+	height:100%;
+	width:20%;
+	background: url(https://sun9-60.userapi.com/impg/ukq9qQmWDa56MORVSz-3ViBXJw7drP5FAAFPWw/_D5oCPBsdj0.jpg?size=709x709&quality=96&sign=e777150cadd285990063f82a9d82a578&type=album) no-repeat center center / cover;
+	
+}
+
+.title {
+	position: relative;
+	z-index: 1;
+	
+}
+
+
+.nav ul {
+	margin: 10px 0px;
+	
+	display: flex;
+	
+}
+
+.nav li {
+	
+	font-weight: bold;
+}
+
+.nav li a {
+	background: rgb(230, 230, 230);
+	transition: all 1s ease;
+	padding-top: 20px;
+	padding-left:50px;
+	padding-bottom:20px;
+	padding-right:50px;
+	margin: 0px 0px;
+	display:flex;
+	text-decoration:none;
+	color: black;
+	border-right:2px solid #b3b3b3;
+	border-bottom:2px solid #b3b3b3;
+	border-top:2px solid #b3b3b3;
+	
+}
+
+
+.nav li a:hover {
+	background: rgb(196, 196, 196);
+	
+
+}
+
+.content-wrapper {
+	display:flex;
+	
+}
+
+a:hover {
+	color:red;
+	text-decoration:none;
+}
+
+
+.content {
+	padding:20px;
+	width:70%;
+}
+
+.sidebar {
+	
+	margin: 5px;
+	height:250px;
+	border:2px solid #b3b3b3;
+	width:200px;
+	background: rgb(230, 230, 230);
+	
+}
+
+.sidebar {
+	size:5px 5px 5px;
+	padding-top:5px;
+	padding-bottom:25px;
+	padding-left:10px;
+	blackground: gray;
+	text-decoration:none;
+}
+
+.sidebar li:hover {
+	transform:translateX(10px);
+	text-decoration:none;
+}
+.content p {
+	line-height: 20px;
+}
